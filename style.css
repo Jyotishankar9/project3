@@ -15,7 +15,7 @@ header{
     display: flex;
     align-items: center;
 }
-ul{
+.hm1{
     list-style: none;
     display: flex;
     justify-content: space-between;
@@ -110,6 +110,9 @@ cursor: grab;
    margin-left: 150px;
    margin-right: 150px;
    padding-bottom: 50px;
+   list-style: none;
+   display: flex;
+   justify-content: center;
 }
 .bar{
     padding-top: 50px;
@@ -167,10 +170,12 @@ cursor: grab;
     font-size: 20px;
     color: gray;
 }
-.a4 li{
-    color: blue
-    
+.a4{
+    list-style: none;
+    color: blue;
+    columns: 2;
 }
+
 .b1{
     display: flex;
     font-size: 20px;
